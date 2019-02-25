@@ -5,15 +5,6 @@ body {
 #p {
   font-family: "Times New Roman", Times, serif;
 }
-#info {
-  color: #ffffff;
-}
-#gallery {
-  color: #ffffff;
-}
-#records {
-  color: #ffffff;
-}
-#stay_tuned {
+#info,#gallery,#records,#stay_tuned {
   color: #ffffff;
 }
