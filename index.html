@@ -2,9 +2,10 @@
   <html lang="en">
     <head>
       <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Burj Khalifa</title>
-      <link rel="shortcut icon" href="icon_site.png" type="image/x-icon">
-      <link href="index.css" rel="stylesheet" type="text/css"/>
+      <link rel="shortcut icon" href="img/icon_site.png" type="image/x-icon">
+      <link href="css/index.css" rel="stylesheet" type="text/css"/>
     </head>
 <body>
   <header>
@@ -12,7 +13,7 @@
            <input type="search" placeholder="Search"> 
         </div>
         <nav>
-            <ul>
+            <ul id="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#info">Info</a></li>
                 <li><a href="#records">Records</a></li>
@@ -24,12 +25,12 @@
   <main>
         <section id="home">
             <p id="main_font">Burj Khalifa</p>
-            <p>World tallest building</p>
-            <img src="burj_khalifa_main.jpg" alt="burj khalifa main" />
+            <p id="main_second">World tallest building</p>
+            <img src="img/burj_khalifa_main.jpg" alt="burj khalifa main" />
         </section>
         <section id="info">
-            <img src="burj_khalifa_info.png" alt="burj khalifa info" />
-            <h2>General Information</h2>
+            <img src="img/burj_khalifa_info.png" alt="burj khalifa info" />
+             <h2>General Information</h2>
             <p>The Burj Khalifa, known as the Burj Dubai prior to its inauguration in 2010,
             is a skyscraper in Dubai, United Arab Emirates. With a total height of 829.8 m, 
             the Burj Khalifa has been the tallest structure and building in the world since its topping out in late 2008. 
@@ -48,26 +49,27 @@
               <li>World's longest travel distance elevators: 504 m</li>
               <li>World's highest restaurant: 122nd floor at 442 m </li>
             </ul>
-            <img src="burj_khalifa_records.jpg" alt="burj khalifa records" /><br/>
+            <img src="img/burj_khalifa_records.jpg" alt="burj khalifa records" /><br/>
         </section>
         <section id="gallery">
-            <img src="burj_khalifa_gallery_main" alt="burj khalifa gallery main"/><br/>
+            <p>Gallery</p><br/>
+            <img src="img/burj_khalifa_gallery_main.jpg" alt="burj khalifa gallery main"/><br/>
         </section>
         <section id="stay_tuned">
-            <h2>BURJ KHALIFA in social networks</h2>
+            <p><h2>BURJ KHALIFA in social networks</h2></p>
             <figure>
-              <img src="face.jpg" alt="Facebook icon" />
+              <img id="face" src="img/face.jpg" alt="Facebook icon" />
               <figcaption><a href="https://www.facebook.com/burjkhalifa"></a></figcaption>
             </figure>
             <figure>
-              <img src="insta.jpg" alt="Instagram icon" />
+              <img id="insta" src="img/insta.jpg" alt="Instagram icon" />
               <figcaption><a href="https://www.instagram.com/burjkhalifa"></a></figcaption>
             </figure>
              <figure>
-              <img src="map_icon.png" alt="Map icon" />
+              <img id="map_icon" src="img/map_icon.png" alt="Map icon" />
               <figcaption>Here you can find BURJ KHALIFA</figcaption>
             </figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785100243046!2d55.27218771433757!3d25.197201837885178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj+Khalifa!5e0!3m2!1sen!2sua!4v1551031968906" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe id="map_google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785100243046!2d55.27218771433757!3d25.197201837885178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj+Khalifa!5e0!3m2!1sen!2sua!4v1551031968906" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
     </main>
     <footer>
@@ -79,7 +81,7 @@
             <input type="submit" value="GO">
         	</form>
         </div>
-      <img src="planet_logo.png" alt="planet logo"/>
+      <img src="img/planet_logo.png" alt="planet logo"/>
 	    <span>Burj Khalifa 2019</span>
     </footer>
 </body>
