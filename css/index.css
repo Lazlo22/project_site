@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,p{
   margin:0;
 }
 
-header div#search{
+header #search{
   margin-left: 15px;
   margin-top: 15px;
 }
@@ -49,7 +49,7 @@ header nav #menu li a{
   font-family: 'Arvo', serif;
 }
 
-section#home img{
+#home img{
   width:101%;
   height:700px;
 }
@@ -109,19 +109,40 @@ stay_tuned{
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 10% 30% 20% 20% 20%;
 }
-#stay_tuned h2{
+#stay_tuned h{
   text-align: center;
   font-size: 1.6rem;
   font-family: 'Raleway', sans-serif;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 #stay_tuned img {
   height:70px;
   width:70px;
 }
+#stay_tuned #icons{
+  display: flex;
+  justify-content:space-between;
+}
 
 
 
+footer img{
+width: 30px;
+height:50px;
+}
+
+footer span{
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 18px;
+}
+
+footer #contacts h{
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: 'Architects Daughter', cursive;
+}
 
 
 
