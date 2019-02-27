@@ -109,7 +109,7 @@ stay_tuned{
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 10% 30% 20% 20% 20%;
 }
-#stay_tuned h{
+#stay_tuned h2{
   text-align: center;
   font-size: 1.6rem;
   font-family: 'Raleway', sans-serif;
@@ -129,7 +129,7 @@ stay_tuned{
 
 footer img{
 width: 30px;
-height:50px;
+height:30px;
 }
 
 footer span{
@@ -138,7 +138,9 @@ footer span{
   font-size: 18px;
 }
 
-footer #contacts h{
+footer #contacts h2{
+  margin-top:10px;
+  margine-bottom:20px;
   text-align: center;
   font-size: 1.25rem;
   font-family: 'Architects Daughter', cursive;
